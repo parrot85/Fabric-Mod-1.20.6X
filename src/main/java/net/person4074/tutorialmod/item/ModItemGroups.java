@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.person4074.tutorialmod.TutorialMod;
+import net.person4074.tutorialmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup ADAMANT_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -16,7 +17,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ADAMANT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ADAMANT);
                         entries.add(ModItems.RAW_ADAMANT);
-
+                        entries.add(ModItems.VASILIS);
+                        entries.add(ModBlocks.ADAMANT_BLOCK);
 
 
 
