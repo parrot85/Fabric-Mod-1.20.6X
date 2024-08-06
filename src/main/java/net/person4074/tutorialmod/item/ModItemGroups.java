@@ -19,6 +19,9 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_ADAMANT);
                         entries.add(ModItems.VASILIS);
                         entries.add(ModBlocks.ADAMANT_BLOCK);
+                        entries.add(ModItems.RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
+
 
 
 
