@@ -1,10 +1,13 @@
 {
   "item.tutorialmod.adamant": "Adamant",
   "item.tutorialmod.ruby": "Ruby",
+  "item.tutorialmod.raw_ruby": "Raw_Ruby",
   "item.tutorialmod.raw_adamant": "Raw Adamant",
   "item.tutorialmod.vasilis": "Vasilis",
   "block.tutorialmod.adamant_block": "Block of Adamant ",
   "block.tutorialmod.ruby_block": "Block of Ruby ",
+  "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby ",
+  "block.tutorialmod.raw_adamant_block": "Block of Raw Adamant ",
 
 
   "itemgroup.adamant": "Adamant Group"

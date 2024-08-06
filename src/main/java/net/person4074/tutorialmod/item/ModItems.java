@@ -14,12 +14,14 @@ public static final Item ADAMANT = registerItem("adamant", new Item(new Item.Set
 public static final Item RAW_ADAMANT = registerItem("raw_adamant", new Item(new Item.Settings()));
 public static final Item VASILIS = registerItem("vasilis", new Item(new Item.Settings()));
 public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
+public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new Item.Settings()));
 
 private static  void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
     entries.add(ADAMANT);
     entries.add(RAW_ADAMANT);
     entries.add(VASILIS);
     entries.add(RUBY);
+    entries.add(RAW_RUBY);
 }
 
 private static Item registerItem(String name, Item item){
